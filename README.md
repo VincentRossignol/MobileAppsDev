@@ -26,3 +26,4 @@ The API key is hidden in gradle.properties and we access the key via the buildco
 ![image_2021-03-07_181208](https://user-images.githubusercontent.com/80149866/110248309-a1a5e280-7f70-11eb-8308-f08246350584.png)
 
 
+Finally the file containing the data is protected 
