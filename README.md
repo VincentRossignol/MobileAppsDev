@@ -17,7 +17,7 @@ The last one is named "load" and is used to read data from the internal storage 
 ![image_2021-03-07_173242](https://user-images.githubusercontent.com/80149866/110247161-1fff8600-7f6b-11eb-91ca-1b250c4a9df2.png)
 
 
-The API key is hidden in gradle.properties and we access the key via the buildconfid as showed below 
+The API key is hidden in gradle.properties and we access the key via the buildconfig as showed below 
 
 ![image_2021-03-07_181058](https://user-images.githubusercontent.com/80149866/110248258-78855200-7f70-11eb-9ddc-cbcc4209a313.png)
 
@@ -26,4 +26,4 @@ The API key is hidden in gradle.properties and we access the key via the buildco
 ![image_2021-03-07_181208](https://user-images.githubusercontent.com/80149866/110248309-a1a5e280-7f70-11eb-8308-f08246350584.png)
 
 
-Finally the file containing the data is protected 
+Finally the file containing the data is protected by the phone's system. Moreover at the creation of the file a "private mode" is specified. Therefore the access to this file cannot be done by mainstream ways
